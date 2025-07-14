@@ -7,8 +7,11 @@ from ctypes import windll
 
 def aboutPEStart():
     tkinter.messagebox.showinfo("About",
-    """Preinstalled Environment Start Launcher
-Version:\t1446
-\tDelta Sidoarjo x Delta Shadow
+    """Version: 1447
 
-Windows Preinstalled Environtment as Windows PE, WinPE is rescue operating system Windows-based.""")
+Windows Preinstalled Environtment is rescue operating system.
+""")
+def thisIncludedPicture():
+    tkinter.messagebox.showinfo("About included picture",
+    """Firefly is character Honkai: Star Rail game from miHoYo/HoYoverse. All Rights Reserved.
+""")
